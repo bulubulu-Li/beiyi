@@ -1,0 +1,33 @@
+log path is ./log\pku_pretrain_cnn_tag11171020.log 
+ResNet18 model version is  v1 
+params are 
+ Namespace(batch_size=64, cuda=0, dataset='pku', epochs=50, flag='', fold_n=1, frequency=50, info='', lr=0.001, model_id=1, model_name='cw_srnet', num_cols=18, print_code=0, seed=42, threshold=0.5, time='', time_window_size=5, use_pretrain=0.0, use_print=0, use_scale=0) 
+run kfold test begin, best model path is resnet_scale0_epoch45of50_07311051.pkl 
+run kfold test begin, fold n is 1 
+-- epoch is 0, run_mode is test, begin -- 
+run mode is test, epoch i is 0, test auc is 0.5089 , test loss is 7.169096231460571 
+accuracy is 0.8219, --- test recall is 0.1961 ---, f1 score is 0.1493, show confusion matrix below 
+-- epoch is 1, run_mode is test, begin -- 
+run mode is test, epoch i is 1, test auc is 0.6014 , test loss is 6.229429006576538 
+accuracy is 0.9045, --- test recall is 0.0 ---, f1 score is 0.0, show confusion matrix below 
+-- epoch is 2, run_mode is test, begin -- 
+run mode is test, epoch i is 2, test auc is 0.9018 , test loss is 6.60079163312912 
+accuracy is 0.9406, --- test recall is 0.678 ---, f1 score is 0.678, show confusion matrix below 
+-- epoch is 3, run_mode is test, begin -- 
+run mode is test, epoch i is 3, test auc is 0.8971 , test loss is 16.524705797433853 
+accuracy is 0.7853, --- test recall is 0.872 ---, f1 score is 0.4082, show confusion matrix below 
+-- epoch is 4, run_mode is test, begin -- 
+run mode is test, epoch i is 4, test auc is 0.6249 , test loss is 7.739695906639099 
+accuracy is 0.6179, --- test recall is 0.5625 ---, f1 score is 0.4009, show confusion matrix below 
+-- epoch is 5, run_mode is test, begin -- 
+run mode is test, epoch i is 5, test auc is 0.7496 , test loss is 7.8314803540706635 
+accuracy is 0.6946, --- test recall is 0.6795 ---, f1 score is 0.4965, show confusion matrix below 
+-- epoch is 6, run_mode is test, begin -- 
+run mode is test, epoch i is 6, test auc is 0.8283 , test loss is 6.2167335748672485 
+accuracy is 0.7934, --- test recall is 0.7586 ---, f1 score is 0.2699, show confusion matrix below 
+-- epoch is 7, run_mode is test, begin -- 
+run mode is test, epoch i is 7, test auc is 0.8307 , test loss is 8.150164186954498 
+accuracy is 0.7331, --- test recall is 0.8156 ---, f1 score is 0.5875, show confusion matrix below 
+-- epoch is 8, run_mode is test, begin -- 
+run mode is test, epoch i is 8, test auc is 0.8766 , test loss is 6.9990429282188416 
+accuracy is 0.8562, --- test recall is 0.7831 ---, f1 score is 0.5856, show confusion matrix below 

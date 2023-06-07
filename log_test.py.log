@@ -1,0 +1,5 @@
+2023-02-25 17:50:36,883 - log_test.py[line:13] - INFO: info
+2023-02-25 17:50:36,883 - log_test.py[line:14] - DEBUG: debug
+2023-02-25 17:50:36,883 - log_test.py[line:15] - WARNING: warning
+2023-02-25 17:50:36,883 - log_test.py[line:16] - ERROR: error
+2023-02-25 17:50:36,883 - log_test.py[line:17] - CRITICAL: critical

@@ -1,0 +1,7 @@
+log path is ./log\pku_pretrain_cnn_tag04281508.log 
+ResNet18 model version is  v1 
+params are 
+ Namespace(batch_size=64, cuda=0, dataset='pku', epochs=50, flag='', fold_n=1, frequency=50, info='', lr=0.001, model_id=1, model_name='cw_srnet', num_cols=18, print_code=0, seed=42, threshold=0.5, time='', time_window_size=5, use_pretrain=0.0, use_print=0, use_scale=0) 
+run kfold test begin, best model path is resnet_scale0_epoch31of50_03301802.pkl 
+run kfold test begin, fold n is 1 
+-- epoch is 0, run_mode is test, begin -- 

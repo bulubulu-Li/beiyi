@@ -1,0 +1,168 @@
+log path is /data/zzp/log/pku_pretrain_cnn_tag07301657.log 
+ResNet18 model version is  v1 
+params are 
+ Namespace(epochs=50, batch_size=64, model_id=1, dataset='pku', model_name='cw_srnet', cuda=6, num_cols=18, time_window_size=5, frequency=50, threshold=0.5, use_scale=0, use_pretrain=0.2, use_print=0, lr=1.5e-09, lam=0.001, info='', time='', seed=42, print_code=0, fold_n=1, flag='') 
+run begin, start time is 2022-07-30 16:57:16 
+total epochs is 50 
+-- epoch is 0, run_mode is eval, begin -- 
+run mode is eval, epoch i is 0, eval auc is 0.8866 , eval loss is 67.89216321706772 
+accuracy is 0.5598, --- eval recall is 0.9949 ---, f1 score is 0.7158, show confusion matrix below 
+-- epoch is 1, run_mode is eval, begin -- 
+run mode is eval, epoch i is 1, eval auc is 0.8938 , eval loss is 66.7537853717804 
+accuracy is 0.5624, --- eval recall is 0.9949 ---, f1 score is 0.7171, show confusion matrix below 
+-- epoch is 2, run_mode is eval, begin -- 
+run mode is eval, epoch i is 2, eval auc is 0.8894 , eval loss is 67.24159955978394 
+accuracy is 0.5619, --- eval recall is 0.9961 ---, f1 score is 0.7173, show confusion matrix below 
+-- epoch is 3, run_mode is eval, begin -- 
+run mode is eval, epoch i is 3, eval auc is 0.8861 , eval loss is 68.24326366186142 
+accuracy is 0.5603, --- eval recall is 0.9956 ---, f1 score is 0.7161, show confusion matrix below 
+-- epoch is 4, run_mode is eval, begin -- 
+run mode is eval, epoch i is 4, eval auc is 0.9022 , eval loss is 66.74914735555649 
+accuracy is 0.5619, --- eval recall is 0.9964 ---, f1 score is 0.717, show confusion matrix below 
+-- epoch is 5, run_mode is eval, begin -- 
+run mode is eval, epoch i is 5, eval auc is 0.8916 , eval loss is 67.59518676996231 
+accuracy is 0.5626, --- eval recall is 0.9933 ---, f1 score is 0.7169, show confusion matrix below 
+-- epoch is 6, run_mode is eval, begin -- 
+run mode is eval, epoch i is 6, eval auc is 0.9008 , eval loss is 67.06729733943939 
+accuracy is 0.5609, --- eval recall is 0.9977 ---, f1 score is 0.7169, show confusion matrix below 
+-- epoch is 7, run_mode is eval, begin -- 
+run mode is eval, epoch i is 7, eval auc is 0.8935 , eval loss is 67.97873491048813 
+accuracy is 0.5645, --- eval recall is 0.9954 ---, f1 score is 0.7182, show confusion matrix below 
+-- epoch is 8, run_mode is eval, begin -- 
+run mode is eval, epoch i is 8, eval auc is 0.9027 , eval loss is 66.33880692720413 
+accuracy is 0.569, --- eval recall is 0.9946 ---, f1 score is 0.7201, show confusion matrix below 
+-- epoch is 9, run_mode is eval, begin -- 
+run mode is eval, epoch i is 9, eval auc is 0.8962 , eval loss is 67.8153572678566 
+accuracy is 0.5652, --- eval recall is 0.9943 ---, f1 score is 0.7184, show confusion matrix below 
+-- epoch is 10, run_mode is eval, begin -- 
+run mode is eval, epoch i is 10, eval auc is 0.9041 , eval loss is 65.42323088645935 
+accuracy is 0.5647, --- eval recall is 0.9961 ---, f1 score is 0.7184, show confusion matrix below 
+-- epoch is 11, run_mode is eval, begin -- 
+run mode is eval, epoch i is 11, eval auc is 0.904 , eval loss is 67.53190088272095 
+accuracy is 0.5679, --- eval recall is 0.9933 ---, f1 score is 0.7192, show confusion matrix below 
+-- epoch is 12, run_mode is eval, begin -- 
+run mode is eval, epoch i is 12, eval auc is 0.8947 , eval loss is 68.21187502145767 
+accuracy is 0.5665, --- eval recall is 0.9936 ---, f1 score is 0.7188, show confusion matrix below 
+-- epoch is 13, run_mode is eval, begin -- 
+run mode is eval, epoch i is 13, eval auc is 0.9083 , eval loss is 64.76104980707169 
+accuracy is 0.5697, --- eval recall is 0.9933 ---, f1 score is 0.7203, show confusion matrix below 
+-- epoch is 14, run_mode is eval, begin -- 
+run mode is eval, epoch i is 14, eval auc is 0.905 , eval loss is 67.14209115505219 
+accuracy is 0.5743, --- eval recall is 0.9925 ---, f1 score is 0.7223, show confusion matrix below 
+-- epoch is 15, run_mode is eval, begin -- 
+run mode is eval, epoch i is 15, eval auc is 0.8993 , eval loss is 67.31837904453278 
+accuracy is 0.5784, --- eval recall is 0.9866 ---, f1 score is 0.7228, show confusion matrix below 
+-- epoch is 16, run_mode is eval, begin -- 
+run mode is eval, epoch i is 16, eval auc is 0.91 , eval loss is 66.04870343208313 
+accuracy is 0.5711, --- eval recall is 0.9931 ---, f1 score is 0.7207, show confusion matrix below 
+-- epoch is 17, run_mode is eval, begin -- 
+run mode is eval, epoch i is 17, eval auc is 0.9066 , eval loss is 67.71896600723267 
+accuracy is 0.569, --- eval recall is 0.9956 ---, f1 score is 0.7204, show confusion matrix below 
+-- epoch is 18, run_mode is eval, begin -- 
+run mode is eval, epoch i is 18, eval auc is 0.9094 , eval loss is 66.3131919503212 
+accuracy is 0.5715, --- eval recall is 0.9928 ---, f1 score is 0.7206, show confusion matrix below 
+-- epoch is 19, run_mode is eval, begin -- 
+run mode is eval, epoch i is 19, eval auc is 0.9107 , eval loss is 64.74754279851913 
+accuracy is 0.5735, --- eval recall is 0.9918 ---, f1 score is 0.7215, show confusion matrix below 
+-- epoch is 20, run_mode is eval, begin -- 
+run mode is eval, epoch i is 20, eval auc is 0.9103 , eval loss is 65.19151562452316 
+accuracy is 0.5753, --- eval recall is 0.992 ---, f1 score is 0.7227, show confusion matrix below 
+-- epoch is 21, run_mode is eval, begin -- 
+run mode is eval, epoch i is 21, eval auc is 0.9152 , eval loss is 64.05583983659744 
+accuracy is 0.5869, --- eval recall is 0.991 ---, f1 score is 0.7279, show confusion matrix below 
+-- epoch is 22, run_mode is eval, begin -- 
+run mode is eval, epoch i is 22, eval auc is 0.9151 , eval loss is 65.44915688037872 
+accuracy is 0.5923, --- eval recall is 0.9902 ---, f1 score is 0.7304, show confusion matrix below 
+-- epoch is 23, run_mode is eval, begin -- 
+run mode is eval, epoch i is 23, eval auc is 0.91 , eval loss is 66.26805943250656 
+accuracy is 0.5991, --- eval recall is 0.9843 ---, f1 score is 0.7325, show confusion matrix below 
+-- epoch is 24, run_mode is eval, begin -- 
+run mode is eval, epoch i is 24, eval auc is 0.9088 , eval loss is 67.809396982193 
+accuracy is 0.631, --- eval recall is 0.9779 ---, f1 score is 0.747, show confusion matrix below 
+-- epoch is 25, run_mode is eval, begin -- 
+run mode is eval, epoch i is 25, eval auc is 0.914 , eval loss is 65.84940737485886 
+accuracy is 0.66, --- eval recall is 0.9761 ---, f1 score is 0.762, show confusion matrix below 
+-- epoch is 26, run_mode is eval, begin -- 
+run mode is eval, epoch i is 26, eval auc is 0.9141 , eval loss is 64.85520595312119 
+accuracy is 0.624, --- eval recall is 0.9817 ---, f1 score is 0.7444, show confusion matrix below 
+-- epoch is 27, run_mode is eval, begin -- 
+run mode is eval, epoch i is 27, eval auc is 0.9129 , eval loss is 66.25568228960037 
+accuracy is 0.6456, --- eval recall is 0.9774 ---, f1 score is 0.7546, show confusion matrix below 
+-- epoch is 28, run_mode is eval, begin -- 
+run mode is eval, epoch i is 28, eval auc is 0.9092 , eval loss is 66.35574352741241 
+accuracy is 0.617, --- eval recall is 0.9797 ---, f1 score is 0.7402, show confusion matrix below 
+-- epoch is 29, run_mode is eval, begin -- 
+run mode is eval, epoch i is 29, eval auc is 0.916 , eval loss is 65.68030595779419 
+accuracy is 0.6392, --- eval recall is 0.9804 ---, f1 score is 0.7516, show confusion matrix below 
+-- epoch is 30, run_mode is eval, begin -- 
+run mode is eval, epoch i is 30, eval auc is 0.9158 , eval loss is 65.91128021478653 
+accuracy is 0.7774, --- eval recall is 0.9586 ---, f1 score is 0.8277, show confusion matrix below 
+-- epoch is 31, run_mode is eval, begin -- 
+run mode is eval, epoch i is 31, eval auc is 0.9154 , eval loss is 65.84859502315521 
+accuracy is 0.8049, --- eval recall is 0.9547 ---, f1 score is 0.8451, show confusion matrix below 
+-- epoch is 32, run_mode is eval, begin -- 
+run mode is eval, epoch i is 32, eval auc is 0.9179 , eval loss is 64.71740859746933 
+accuracy is 0.8185, --- eval recall is 0.9542 ---, f1 score is 0.8543, show confusion matrix below 
+-- epoch is 33, run_mode is eval, begin -- 
+run mode is eval, epoch i is 33, eval auc is 0.9167 , eval loss is 65.29706263542175 
+accuracy is 0.7589, --- eval recall is 0.9666 ---, f1 score is 0.8171, show confusion matrix below 
+-- epoch is 34, run_mode is eval, begin -- 
+run mode is eval, epoch i is 34, eval auc is 0.9175 , eval loss is 64.35750204324722 
+accuracy is 0.8002, --- eval recall is 0.9588 ---, f1 score is 0.8425, show confusion matrix below 
+-- epoch is 35, run_mode is eval, begin -- 
+run mode is eval, epoch i is 35, eval auc is 0.9172 , eval loss is 64.63213592767715 
+accuracy is 0.7566, --- eval recall is 0.9658 ---, f1 score is 0.8157, show confusion matrix below 
+-- epoch is 36, run_mode is eval, begin -- 
+run mode is eval, epoch i is 36, eval auc is 0.9194 , eval loss is 65.4774449467659 
+accuracy is 0.8182, --- eval recall is 0.9576 ---, f1 score is 0.8546, show confusion matrix below 
+-- epoch is 37, run_mode is eval, begin -- 
+run mode is eval, epoch i is 37, eval auc is 0.9217 , eval loss is 63.61811673641205 
+accuracy is 0.8079, --- eval recall is 0.9617 ---, f1 score is 0.8481, show confusion matrix below 
+-- epoch is 38, run_mode is eval, begin -- 
+run mode is eval, epoch i is 38, eval auc is 0.92 , eval loss is 63.34078139066696 
+accuracy is 0.7894, --- eval recall is 0.9612 ---, f1 score is 0.8357, show confusion matrix below 
+-- epoch is 39, run_mode is eval, begin -- 
+run mode is eval, epoch i is 39, eval auc is 0.9216 , eval loss is 63.83810639381409 
+accuracy is 0.8175, --- eval recall is 0.9588 ---, f1 score is 0.8541, show confusion matrix below 
+-- epoch is 40, run_mode is eval, begin -- 
+run mode is eval, epoch i is 40, eval auc is 0.9196 , eval loss is 65.6274396777153 
+accuracy is 0.8306, --- eval recall is 0.9543 ---, f1 score is 0.8627, show confusion matrix below 
+-- epoch is 41, run_mode is eval, begin -- 
+run mode is eval, epoch i is 41, eval auc is 0.9147 , eval loss is 65.70163863897324 
+accuracy is 0.8503, --- eval recall is 0.9414 ---, f1 score is 0.8753, show confusion matrix below 
+-- epoch is 42, run_mode is eval, begin -- 
+run mode is eval, epoch i is 42, eval auc is 0.9224 , eval loss is 63.740003407001495 
+accuracy is 0.8426, --- eval recall is 0.9535 ---, f1 score is 0.8712, show confusion matrix below 
+-- epoch is 43, run_mode is eval, begin -- 
+run mode is eval, epoch i is 43, eval auc is 0.9213 , eval loss is 64.09766799211502 
+accuracy is 0.8374, --- eval recall is 0.9514 ---, f1 score is 0.8672, show confusion matrix below 
+-- epoch is 44, run_mode is eval, begin -- 
+run mode is eval, epoch i is 44, eval auc is 0.9215 , eval loss is 65.15736091136932 
+accuracy is 0.8562, --- eval recall is 0.947 ---, f1 score is 0.8801, show confusion matrix below 
+-- epoch is 45, run_mode is eval, begin -- 
+run mode is eval, epoch i is 45, eval auc is 0.9182 , eval loss is 65.04615145921707 
+accuracy is 0.8637, --- eval recall is 0.9411 ---, f1 score is 0.8851, show confusion matrix below 
+-- epoch is 46, run_mode is eval, begin -- 
+run mode is eval, epoch i is 46, eval auc is 0.9185 , eval loss is 64.03797745704651 
+accuracy is 0.8394, --- eval recall is 0.9502 ---, f1 score is 0.8685, show confusion matrix below 
+-- epoch is 47, run_mode is eval, begin -- 
+run mode is eval, epoch i is 47, eval auc is 0.9214 , eval loss is 62.92996799945831 
+accuracy is 0.8554, --- eval recall is 0.9478 ---, f1 score is 0.8796, show confusion matrix below 
+-- epoch is 48, run_mode is eval, begin -- 
+run mode is eval, epoch i is 48, eval auc is 0.9209 , eval loss is 63.58163911104202 
+accuracy is 0.8405, --- eval recall is 0.9537 ---, f1 score is 0.8695, show confusion matrix below 
+-- epoch is 49, run_mode is eval, begin -- 
+run mode is eval, epoch i is 49, eval auc is 0.922 , eval loss is 63.991579949855804 
+accuracy is 0.861, --- eval recall is 0.9452 ---, f1 score is 0.8834, show confusion matrix below 
+----train-eval best score is 3.09585, best_epoch is 45 ----
+-------------- best_pretrain_model_path save to : 
+ /data/zzp/result/model_save/mit/resnet_scale0_epoch45of50_07301657.pkl 
+run kfold test begin, best model path is /data/zzp/result/model_save/mit/resnet_scale0_epoch45of50_07301657.pkl 
+run kfold test begin, fold n is 1 
+-- epoch is 0, run_mode is test, begin -- 
+run mode is test, epoch i is 0, test auc is 0.8659 , test loss is 9.134947001934052 
+accuracy is 0.8281, --- test recall is 0.835 ---, f1 score is 0.546, show confusion matrix below 
+-------------- best_pretrain_model_path is : 
+ /data/zzp/result/model_save/mit/resnet_scale0_epoch45of50_07301657.pkl 
+start time tag is 07301657, end_time_tag is 07301737 
+log path is /data/zzp/log/pku_pretrain_cnn_tag07301657.log 

@@ -1,0 +1,29 @@
+# This is the minimal config file for an NNI experiment.
+# Use "nnictl create --config config.yml" to launch this experiment.
+# Afterwards, you can check "config_detailed.yml" for more explanation.
+# /home/nanke/pku1/stock_predict/run_nni/
+
+authorName: nanke
+experimentName: mnist
+trialConcurrency: 1
+maxExecDuration: 2h
+maxTrialNum: 100
+#choice: local, remote
+trainingServicePlatform: local
+searchSpacePath: search_space.json
+#choice: true, false
+useAnnotation: false
+tuner:
+  #choice: TPE, Random, Anneal, Evolution
+  builtinTunerName: TPE
+  classArgs:
+    #choice: maximize, minimize
+    optimize_mode: maximize
+trial:
+  command: python mnist.py
+  codeDir: /home/nanke/pku1/run_nni
+  gpuNum: 1
+localConfig:
+  useActiveGpu: true
+  maxTrialNumPerGpu: 5
+  gpuIndices: 1
